@@ -1,0 +1,41 @@
+/* 预定义渐变背景 */
+/* 0 */
+.cy-button .s{  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ee9ca7, #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* 1 */
+.cy-button .s1{
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+/* 2 */
+.cy-button .s2{
+    background: linear-gradient(to right, #b92b27, #1565c0);
+}
+/* 3 */
+.cy-button .s3{
+    background: linear-gradient(to right, #f12711, #f5af19);
+}
+/* 4 */
+.cy-button .s4{
+    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+}
+/* 5 */
+.cy-button .s5{
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+/* 6 */
+.cy-button .s6{
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+/* 7 */
+.cy-button .s7{
+    background: linear-gradient(to right, #00c3ff, #ffff1c);
+}
+/* 8 */
+.cy-button .s8{
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+/* 9 */
+.cy-button .s9{
+    background: linear-gradient(to right,  #f12711, #f5af19);
+}

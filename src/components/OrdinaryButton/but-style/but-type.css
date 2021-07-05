@@ -1,0 +1,144 @@
+/* 默认按钮样式 */
+div.cy-button .but-default{
+  color: #606266;
+  background-color: white;
+  border:1px solid #dcdfe6;
+}
+/* 鼠标悬浮默认按钮时 */
+div.cy-button .but-default:hover{
+  opacity: 0.7;
+  border:1px solid dodgerblue;
+  color: #1989fa;
+}
+/* 默认按钮被点击时 */
+div.cy-button .but-default:active{
+  color: #1989fa;
+  box-shadow: 0px 0px 2px dodgerblue;
+  opacity: 1;
+}
+/* 默认按钮获取焦点后 */
+div.cy-button .but-default:focus{
+  border:1px solid dodgerblue;
+  color: #1989fa;
+  box-shadow: 0px 0px 5px dodgerblue;
+  opacity: 1;
+}
+
+/* 主要按钮样式 */
+div.cy-button .but-primary{
+  color: white;
+  background-color: DodgerBlue;
+  border:1px solid DodgerBlue;
+}
+/* 鼠标悬浮主要按钮时 */
+div.cy-button .but-primary:hover{
+  opacity: 0.8;
+}
+/* 主要按钮被点击时 */
+div.cy-button .but-primary:active{
+  box-shadow: 0px 0px 5px rgb(0, 128, 255);
+}
+/* 主要按钮获取焦点后 */
+div.cy-button .but-primary:focus{
+  border:1px solid rgb(0, 128, 255);
+  box-shadow: 0px 0px 7px dodgerblue;
+}
+
+/* 成功按钮样式 */
+div.cy-button .but-success{
+  color: white;
+  background-color: #67c23a;
+  border: 1px solid #67c23a;
+}
+/* 鼠标悬浮成功按钮时 */
+div.cy-button .but-success:hover{
+  opacity: 0.8;
+}
+/* 成功按钮被点击时 */
+div.cy-button .but-success:active{
+  box-shadow: 0px 0px 5px #5de01c;
+}
+/* 成功按钮获取焦点后 */
+div.cy-button .but-success:focus{
+  border:1px solid #55ff00;
+  box-shadow: 0px 0px 7px #67c23a;
+}
+
+/* 信息按钮样式 */
+div.cy-button .but-info{
+  color: white;
+  background-color: #909399;
+  border: 1px solid #909399;
+}
+/* 鼠标悬浮信息按钮时 */
+div.cy-button .but-info:hover{
+  opacity: 0.8;
+}
+/* 信息按钮被点击时 */
+div.cy-button .but-info:active{
+  box-shadow: 0px 0px 2px #808080;
+}
+/* 信息按钮获取焦点后 */
+div.cy-button .but-info:focus{
+  border:1px solid #808080;
+  box-shadow: 0px 0px 7px #909399;
+}
+
+/* 警告按钮样式 */
+div.cy-button .but-warning{
+  color: white;
+  background-color: #e6a23c;
+  border: 1px solid #e6a23c;
+}
+/* 鼠标悬浮警告按钮时 */
+.cy-button .but-warning:hover{
+  opacity: 0.8;
+}
+/* 警告按钮被点击时 */
+.cy-button .but-warning:active{
+  box-shadow: 0px 0px 2px #ff9900;
+}
+/* 警告按钮获取焦点后 */
+.cy-button .but-warning:focus{
+  border:1px solid #ff9900;
+  box-shadow: 0px 0px 5px #e6a23c;
+}
+
+/* 危险按钮样式 */
+.cy-button .but-error{
+  color: white;
+  background-color: #f56c6c;
+  border: 1px solid #f56c6c;
+}
+/* 鼠标悬浮危险按钮时 */
+.cy-button .but-error:hover{
+  opacity: 0.8;
+}
+/* 危险按钮被点击时 */
+.cy-button .but-error:active{
+  box-shadow: 0px 0px 2px #f56c6c;
+}
+/* 危险按钮获取焦点后 */
+.cy-button .but-error:focus{
+  border:1px solid #fd3232;
+  box-shadow: 0px 0px 5px #f56c6c;
+}
+
+  /* 文本按钮 */
+.cy-button.cy .but-text{
+  outline: 0;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+  box-shadow: 0px 0px 0px white;
+  border: transparent;
+  color: dodgerblue;
+}
+/* 鼠标滑过文本按钮时 */
+.cy-button .but-text:hover{
+  opacity: 0.7;
+}
+/* 点击文本按钮时 */
+.cy-button .but-text:active{
+  opacity: 1;
+}

@@ -1,0 +1,41 @@
+  /* 线框属性 */
+div.cy.cy-button button.dehased{
+    border: 1px dashed black;
+  }
+  /* 圆角属性 */
+div.cy.cy-button button.round{
+    border-radius: 20px;
+  }
+  /* 禁用属性 */
+div.cy.cy-button button.disabled{
+    pointer-events: none;
+    opacity: 0.7;
+  }
+  /* 宽度自适应 */
+div.cy.cy-button button.auto{
+    width: 100%;
+  }
+  /* 超大按钮 */
+div.cy.cy-button button.max{
+    width: 128px;
+    height: 52px;
+    line-height: 52px;
+  }
+  /* 大按钮 */
+div.cy.cy-button button.big{
+    width: 108px;
+    height: 42px;
+    line-height: 42px;
+  }
+  /* 小按钮 */
+div.cy.cy-button button.small{
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+  }
+  /* 超小按钮 */
+div.cy.cy-button button.mini{
+    width: 68px;
+    height: 25px;
+    line-height: 25px;
+  }
