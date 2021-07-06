@@ -1,8 +1,8 @@
 <!--
  * @Author: 主页面
  * @Date: 2021-05-13 10:03:58
- * @LastEditTime: 2021-05-13 10:10:31
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-07-05 23:38:07
+ * @LastEditors: 学习
  * @Description: In User Settings Edit
  * @FilePath: \参考\my-app\src\App.vue
 -->
@@ -39,7 +39,7 @@ export default {
     Vue1,
     Vue2
   },
-  
+
 }
 
 
