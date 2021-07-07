@@ -14,18 +14,10 @@
     <ColorButton></ColorButton>
     <!-- 炫酷按钮 -->
     <CoolButton></CoolButton>
-    <hr>
-    <!-- 单文件上传 -->
-    <Vue1></Vue1>
-    <hr>
-    <!-- 多文件上传 -->
-    <Vue2></Vue2>
   </div>
 </template>
 
 <script>
-import Vue1 from './components/Vue单文件上传测试'
-import Vue2 from './components/Vue多文件上传测试'
 import OrdinaryButton from './components/OrdinaryButton/cs.vue'
 import ColorButton from './components/ColorButton/cs.vue'
 import CoolButton from './components/CoolButton/cs.vue'
@@ -35,9 +27,7 @@ export default {
   components: {
     OrdinaryButton,
     ColorButton,
-    CoolButton,
-    Vue1,
-    Vue2
+    CoolButton
   },
 
 }
