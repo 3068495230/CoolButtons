@@ -12,17 +12,17 @@
 - ColorButton：单颜色、渐变色、自定背景颜色按钮
 - CoolButton：酷炫按钮，目前只有四个
 - OrdinaryButton：普通按钮，幽灵按钮，朴素按钮、文本按钮
-- but-init-style：存放公用样式
-## 二、使用教程
-### 克隆项目
+- but-init-style：存放公用样
+# 二、使用教程
+## 克隆项目
 ```
 git clone https://gitee.com/qingchen666/vue-blog-admin.git
 ```
-### 在克隆的文件夹下安装配置文件
+## 在克隆的文件夹下安装配置文件
 ```
 npm install
 ```
-### 运行（建议在 Vue ui 中调试运行）
+## 运行（建议在 Vue ui 中调试运行）
 ```
 // 运行项目
 npm run serve
